@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3728931FDA914F00596872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3728921FDA914F00596872 /* AppDelegate.m */; };
+		FC3728961FDA914F00596872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3728951FDA914F00596872 /* ViewController.m */; };
+		FC3728991FDA914F00596872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3728971FDA914F00596872 /* Main.storyboard */; };
+		FC37289B1FDA914F00596872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC37289A1FDA914F00596872 /* Assets.xcassets */; };
+		FC37289E1FDA914F00596872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC37289C1FDA914F00596872 /* LaunchScreen.storyboard */; };
+		FC3728A11FDA914F00596872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3728A01FDA914F00596872 /* main.m */; };
+		FC3728CF1FDA920A00596872 /* Animation.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B01FDA920A00596872 /* Animation.c */; };
+		FC3728D01FDA920A00596872 /* AnimationSegmentEvaluationFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B11FDA920A00596872 /* AnimationSegmentEvaluationFunction.c */; };
+		FC3728D11FDA920A00596872 /* AnimationState.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B21FDA920A00596872 /* AnimationState.c */; };
+		FC3728D21FDA920A00596872 /* AnimationUserDataCallback.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B31FDA920A00596872 /* AnimationUserDataCallback.c */; };
+		FC3728D31FDA920A00596872 /* FloatBlendFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B41FDA920A00596872 /* FloatBlendFunction.c */; };
+		FC3728D41FDA920A00596872 /* Json.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B51FDA920A00596872 /* Json.c */; };
+		FC3728D51FDA920A00596872 /* ModelExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B71FDA920A00596872 /* ModelExtensions.c */; };
+		FC3728D61FDA920A00596872 /* MotionJson.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B81FDA920A00596872 /* MotionJson.c */; };
+		FC3728D71FDA920A00596872 /* Physics.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728B91FDA920A00596872 /* Physics.c */; };
+		FC3728D81FDA920A00596872 /* PhysicsJson.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BA1FDA920A00596872 /* PhysicsJson.c */; };
+		FC3728D91FDA920A00596872 /* PhysicsMath.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BB1FDA920A00596872 /* PhysicsMath.c */; };
+		FC3728DA1FDA920A00596872 /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BC1FDA920A00596872 /* String.c */; };
+		FC3728DB1FDA920A00596872 /* UserData.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BD1FDA920A00596872 /* UserData.c */; };
+		FC3728DC1FDA920A00596872 /* UserDataJson.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BE1FDA920A00596872 /* UserDataJson.c */; };
+		FC3728DD1FDA920A00596872 /* Logging.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728BF1FDA920A00596872 /* Logging.c */; };
+		FC3728DE1FDA920A00596872 /* GlBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C11FDA920A00596872 /* GlBuffer.c */; };
+		FC3728DF1FDA920A00596872 /* GlDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C21FDA920A00596872 /* GlDraw.c */; };
+		FC3728E01FDA920A00596872 /* GlMaskbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C31FDA920A00596872 /* GlMaskbuffer.c */; };
+		FC3728E11FDA920A00596872 /* GlProgram.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C41FDA920A00596872 /* GlProgram.c */; };
+		FC3728E21FDA920A00596872 /* GlRenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C51FDA920A00596872 /* GlRenderer.c */; };
+		FC3728E31FDA920A00596872 /* RenderDrawable.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C71FDA920A00596872 /* RenderDrawable.c */; };
+		FC3728E41FDA920A00596872 /* SortableDrawable.c in Sources */ = {isa = PBXBuildFile; fileRef = FC3728C81FDA920A00596872 /* SortableDrawable.c */; };
+		FC3728E51FDA920A00596872 /* libLive2DCubismCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3728CE1FDA920A00596872 /* libLive2DCubismCore.a */; };
+		FC3728E81FDA92F200596872 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3728E71FDA92F200596872 /* GLKit.framework */; };
+		FC5458ED1FE92AA9000657B2 /* Live2dHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5458EC1FE92AA9000657B2 /* Live2dHelper.m */; };
+		FC5458F11FE92AFC000657B2 /* Allocation.c in Sources */ = {isa = PBXBuildFile; fileRef = FC5458EF1FE92AFC000657B2 /* Allocation.c */; };
+		FC5458F71FE92B8E000657B2 /* Koharu.moc3 in Resources */ = {isa = PBXBuildFile; fileRef = FC5458F31FE92B8E000657B2 /* Koharu.moc3 */; };
+		FC5458F81FE92B8E000657B2 /* Koharu.motion3.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5458F41FE92B8E000657B2 /* Koharu.motion3.json */; };
+		FC5458F91FE92B8E000657B2 /* Koharu.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5458F51FE92B8E000657B2 /* Koharu.png */; };
+		FC5458FA1FE92B8E000657B2 /* License.md in Resources */ = {isa = PBXBuildFile; fileRef = FC5458F61FE92B8E000657B2 /* License.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC37288E1FDA914F00596872 /* live2d-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "live2d-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3728911FDA914F00596872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC3728921FDA914F00596872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC3728941FDA914F00596872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC3728951FDA914F00596872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC3728981FDA914F00596872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC37289A1FDA914F00596872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC37289D1FDA914F00596872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC37289F1FDA914F00596872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3728A01FDA914F00596872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3728AA1FDA920A00596872 /* Live2DCubismFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live2DCubismFramework.h; sourceTree = "<group>"; };
+		FC3728AB1FDA920A00596872 /* Live2DCubismFrameworkINTERNAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live2DCubismFrameworkINTERNAL.h; sourceTree = "<group>"; };
+		FC3728AC1FDA920A00596872 /* Live2DCubismGlRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live2DCubismGlRendering.h; sourceTree = "<group>"; };
+		FC3728AD1FDA920A00596872 /* Live2DCubismGlRenderingINTERNAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live2DCubismGlRenderingINTERNAL.h; sourceTree = "<group>"; };
+		FC3728B01FDA920A00596872 /* Animation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Animation.c; sourceTree = "<group>"; };
+		FC3728B11FDA920A00596872 /* AnimationSegmentEvaluationFunction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnimationSegmentEvaluationFunction.c; sourceTree = "<group>"; };
+		FC3728B21FDA920A00596872 /* AnimationState.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnimationState.c; sourceTree = "<group>"; };
+		FC3728B31FDA920A00596872 /* AnimationUserDataCallback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnimationUserDataCallback.c; sourceTree = "<group>"; };
+		FC3728B41FDA920A00596872 /* FloatBlendFunction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FloatBlendFunction.c; sourceTree = "<group>"; };
+		FC3728B51FDA920A00596872 /* Json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Json.c; sourceTree = "<group>"; };
+		FC3728B61FDA920A00596872 /* Local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Local.h; sourceTree = "<group>"; };
+		FC3728B71FDA920A00596872 /* ModelExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ModelExtensions.c; sourceTree = "<group>"; };
+		FC3728B81FDA920A00596872 /* MotionJson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MotionJson.c; sourceTree = "<group>"; };
+		FC3728B91FDA920A00596872 /* Physics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Physics.c; sourceTree = "<group>"; };
+		FC3728BA1FDA920A00596872 /* PhysicsJson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PhysicsJson.c; sourceTree = "<group>"; };
+		FC3728BB1FDA920A00596872 /* PhysicsMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PhysicsMath.c; sourceTree = "<group>"; };
+		FC3728BC1FDA920A00596872 /* String.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
+		FC3728BD1FDA920A00596872 /* UserData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UserData.c; sourceTree = "<group>"; };
+		FC3728BE1FDA920A00596872 /* UserDataJson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UserDataJson.c; sourceTree = "<group>"; };
+		FC3728BF1FDA920A00596872 /* Logging.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Logging.c; sourceTree = "<group>"; };
+		FC3728C11FDA920A00596872 /* GlBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlBuffer.c; sourceTree = "<group>"; };
+		FC3728C21FDA920A00596872 /* GlDraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlDraw.c; sourceTree = "<group>"; };
+		FC3728C31FDA920A00596872 /* GlMaskbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlMaskbuffer.c; sourceTree = "<group>"; };
+		FC3728C41FDA920A00596872 /* GlProgram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlProgram.c; sourceTree = "<group>"; };
+		FC3728C51FDA920A00596872 /* GlRenderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlRenderer.c; sourceTree = "<group>"; };
+		FC3728C61FDA920A00596872 /* Local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Local.h; sourceTree = "<group>"; };
+		FC3728C71FDA920A00596872 /* RenderDrawable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RenderDrawable.c; sourceTree = "<group>"; };
+		FC3728C81FDA920A00596872 /* SortableDrawable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SortableDrawable.c; sourceTree = "<group>"; };
+		FC3728CB1FDA920A00596872 /* Live2DCubismCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live2DCubismCore.h; sourceTree = "<group>"; };
+		FC3728CE1FDA920A00596872 /* libLive2DCubismCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLive2DCubismCore.a; sourceTree = "<group>"; };
+		FC3728E71FDA92F200596872 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FC5458EB1FE92AA9000657B2 /* Live2dHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Live2dHelper.h; sourceTree = "<group>"; };
+		FC5458EC1FE92AA9000657B2 /* Live2dHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Live2dHelper.m; sourceTree = "<group>"; };
+		FC5458EF1FE92AFC000657B2 /* Allocation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Allocation.c; sourceTree = "<group>"; };
+		FC5458F01FE92AFC000657B2 /* Allocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allocation.h; sourceTree = "<group>"; };
+		FC5458F31FE92B8E000657B2 /* Koharu.moc3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Koharu.moc3; sourceTree = "<group>"; };
+		FC5458F41FE92B8E000657B2 /* Koharu.motion3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Koharu.motion3.json; sourceTree = "<group>"; };
+		FC5458F51FE92B8E000657B2 /* Koharu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Koharu.png; sourceTree = "<group>"; };
+		FC5458F61FE92B8E000657B2 /* License.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC37288B1FDA914F00596872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3728E81FDA92F200596872 /* GLKit.framework in Frameworks */,
+				FC3728E51FDA920A00596872 /* libLive2DCubismCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3728851FDA914F00596872 = {
+			isa = PBXGroup;
+			children = (
+				FC5458F21FE92B8E000657B2 /* Koharu */,
+				FC3728A71FDA920A00596872 /* vendor */,
+				FC3728901FDA914F00596872 /* live2d-demo */,
+				FC37288F1FDA914F00596872 /* Products */,
+				FC3728E61FDA92F200596872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC37288F1FDA914F00596872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC37288E1FDA914F00596872 /* live2d-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3728901FDA914F00596872 /* live2d-demo */ = {
+			isa = PBXGroup;
+			children = (
+				FC5458EE1FE92AFC000657B2 /* Util */,
+				FC3728911FDA914F00596872 /* AppDelegate.h */,
+				FC3728921FDA914F00596872 /* AppDelegate.m */,
+				FC3728941FDA914F00596872 /* ViewController.h */,
+				FC3728951FDA914F00596872 /* ViewController.m */,
+				FC3728971FDA914F00596872 /* Main.storyboard */,
+				FC37289A1FDA914F00596872 /* Assets.xcassets */,
+				FC37289C1FDA914F00596872 /* LaunchScreen.storyboard */,
+				FC37289F1FDA914F00596872 /* Info.plist */,
+				FC3728A01FDA914F00596872 /* main.m */,
+				FC5458EB1FE92AA9000657B2 /* Live2dHelper.h */,
+				FC5458EC1FE92AA9000657B2 /* Live2dHelper.m */,
+			);
+			path = "live2d-demo";
+			sourceTree = "<group>";
+		};
+		FC3728A71FDA920A00596872 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728A81FDA920A00596872 /* Components */,
+				FC3728C91FDA920A00596872 /* Core */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		FC3728A81FDA920A00596872 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728A91FDA920A00596872 /* include */,
+				FC3728AE1FDA920A00596872 /* src */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC3728A91FDA920A00596872 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728AA1FDA920A00596872 /* Live2DCubismFramework.h */,
+				FC3728AB1FDA920A00596872 /* Live2DCubismFrameworkINTERNAL.h */,
+				FC3728AC1FDA920A00596872 /* Live2DCubismGlRendering.h */,
+				FC3728AD1FDA920A00596872 /* Live2DCubismGlRenderingINTERNAL.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FC3728AE1FDA920A00596872 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728AF1FDA920A00596872 /* Framework */,
+				FC3728BF1FDA920A00596872 /* Logging.c */,
+				FC3728C01FDA920A00596872 /* Rendering */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		FC3728AF1FDA920A00596872 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728B01FDA920A00596872 /* Animation.c */,
+				FC3728B11FDA920A00596872 /* AnimationSegmentEvaluationFunction.c */,
+				FC3728B21FDA920A00596872 /* AnimationState.c */,
+				FC3728B31FDA920A00596872 /* AnimationUserDataCallback.c */,
+				FC3728B41FDA920A00596872 /* FloatBlendFunction.c */,
+				FC3728B51FDA920A00596872 /* Json.c */,
+				FC3728B61FDA920A00596872 /* Local.h */,
+				FC3728B71FDA920A00596872 /* ModelExtensions.c */,
+				FC3728B81FDA920A00596872 /* MotionJson.c */,
+				FC3728B91FDA920A00596872 /* Physics.c */,
+				FC3728BA1FDA920A00596872 /* PhysicsJson.c */,
+				FC3728BB1FDA920A00596872 /* PhysicsMath.c */,
+				FC3728BC1FDA920A00596872 /* String.c */,
+				FC3728BD1FDA920A00596872 /* UserData.c */,
+				FC3728BE1FDA920A00596872 /* UserDataJson.c */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		FC3728C01FDA920A00596872 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728C11FDA920A00596872 /* GlBuffer.c */,
+				FC3728C21FDA920A00596872 /* GlDraw.c */,
+				FC3728C31FDA920A00596872 /* GlMaskbuffer.c */,
+				FC3728C41FDA920A00596872 /* GlProgram.c */,
+				FC3728C51FDA920A00596872 /* GlRenderer.c */,
+				FC3728C61FDA920A00596872 /* Local.h */,
+				FC3728C71FDA920A00596872 /* RenderDrawable.c */,
+				FC3728C81FDA920A00596872 /* SortableDrawable.c */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		FC3728C91FDA920A00596872 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728CA1FDA920A00596872 /* include */,
+				FC3728CC1FDA920A00596872 /* lib */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC3728CA1FDA920A00596872 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728CB1FDA920A00596872 /* Live2DCubismCore.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FC3728CC1FDA920A00596872 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728CD1FDA920A00596872 /* ios */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FC3728CD1FDA920A00596872 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728CE1FDA920A00596872 /* libLive2DCubismCore.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		FC3728E61FDA92F200596872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC3728E71FDA92F200596872 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5458EE1FE92AFC000657B2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FC5458EF1FE92AFC000657B2 /* Allocation.c */,
+				FC5458F01FE92AFC000657B2 /* Allocation.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FC5458F21FE92B8E000657B2 /* Koharu */ = {
+			isa = PBXGroup;
+			children = (
+				FC5458F31FE92B8E000657B2 /* Koharu.moc3 */,
+				FC5458F41FE92B8E000657B2 /* Koharu.motion3.json */,
+				FC5458F51FE92B8E000657B2 /* Koharu.png */,
+				FC5458F61FE92B8E000657B2 /* License.md */,
+			);
+			path = Koharu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC37288D1FDA914F00596872 /* live2d-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3728A41FDA914F00596872 /* Build configuration list for PBXNativeTarget "live2d-demo" */;
+			buildPhases = (
+				FC37288A1FDA914F00596872 /* Sources */,
+				FC37288B1FDA914F00596872 /* Frameworks */,
+				FC37288C1FDA914F00596872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "live2d-demo";
+			productName = "live2d-demo";
+			productReference = FC37288E1FDA914F00596872 /* live2d-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3728861FDA914F00596872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Chaoxin;
+				TargetAttributes = {
+					FC37288D1FDA914F00596872 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC3728891FDA914F00596872 /* Build configuration list for PBXProject "live2d-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3728851FDA914F00596872;
+			productRefGroup = FC37288F1FDA914F00596872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC37288D1FDA914F00596872 /* live2d-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC37288C1FDA914F00596872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5458F81FE92B8E000657B2 /* Koharu.motion3.json in Resources */,
+				FC5458F91FE92B8E000657B2 /* Koharu.png in Resources */,
+				FC5458FA1FE92B8E000657B2 /* License.md in Resources */,
+				FC37289E1FDA914F00596872 /* LaunchScreen.storyboard in Resources */,
+				FC5458F71FE92B8E000657B2 /* Koharu.moc3 in Resources */,
+				FC37289B1FDA914F00596872 /* Assets.xcassets in Resources */,
+				FC3728991FDA914F00596872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC37288A1FDA914F00596872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3728DE1FDA920A00596872 /* GlBuffer.c in Sources */,
+				FC3728E41FDA920A00596872 /* SortableDrawable.c in Sources */,
+				FC3728D21FDA920A00596872 /* AnimationUserDataCallback.c in Sources */,
+				FC3728D11FDA920A00596872 /* AnimationState.c in Sources */,
+				FC3728CF1FDA920A00596872 /* Animation.c in Sources */,
+				FC3728DC1FDA920A00596872 /* UserDataJson.c in Sources */,
+				FC3728E11FDA920A00596872 /* GlProgram.c in Sources */,
+				FC5458ED1FE92AA9000657B2 /* Live2dHelper.m in Sources */,
+				FC3728961FDA914F00596872 /* ViewController.m in Sources */,
+				FC3728DB1FDA920A00596872 /* UserData.c in Sources */,
+				FC3728D81FDA920A00596872 /* PhysicsJson.c in Sources */,
+				FC3728E01FDA920A00596872 /* GlMaskbuffer.c in Sources */,
+				FC3728D91FDA920A00596872 /* PhysicsMath.c in Sources */,
+				FC3728A11FDA914F00596872 /* main.m in Sources */,
+				FC3728DF1FDA920A00596872 /* GlDraw.c in Sources */,
+				FC3728D01FDA920A00596872 /* AnimationSegmentEvaluationFunction.c in Sources */,
+				FC3728D61FDA920A00596872 /* MotionJson.c in Sources */,
+				FC3728DD1FDA920A00596872 /* Logging.c in Sources */,
+				FC3728D41FDA920A00596872 /* Json.c in Sources */,
+				FC3728DA1FDA920A00596872 /* String.c in Sources */,
+				FC5458F11FE92AFC000657B2 /* Allocation.c in Sources */,
+				FC3728D31FDA920A00596872 /* FloatBlendFunction.c in Sources */,
+				FC3728E31FDA920A00596872 /* RenderDrawable.c in Sources */,
+				FC3728D71FDA920A00596872 /* Physics.c in Sources */,
+				FC3728931FDA914F00596872 /* AppDelegate.m in Sources */,
+				FC3728E21FDA920A00596872 /* GlRenderer.c in Sources */,
+				FC3728D51FDA920A00596872 /* ModelExtensions.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC3728971FDA914F00596872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3728981FDA914F00596872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC37289C1FDA914F00596872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC37289D1FDA914F00596872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3728A21FDA914F00596872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC3728A31FDA914F00596872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3728A51FDA914F00596872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74V8N2822C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_IOS,
+					_CSM_COMPONENTS_IOS,
+					_CSM_COMPONENTS_USE_GLES20,
+					_USE_GLE20,
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/vendor/Components/include\"",
+					"\"$(SRCROOT)/vendor/Core/include\"",
+				);
+				INFOPLIST_FILE = "live2d-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vendor/Core/lib/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liao.live2d-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		FC3728A61FDA914F00596872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74V8N2822C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_USE_GLES20,
+					_IOS,
+					_CSM_COMPONENTS_IOS,
+					_CSM_COMPONENTS_USE_GLES20,
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/vendor/Components/include\"",
+					"\"$(SRCROOT)/vendor/Core/include\"",
+				);
+				INFOPLIST_FILE = "live2d-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vendor/Core/lib/ios",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liao.live2d-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3728891FDA914F00596872 /* Build configuration list for PBXProject "live2d-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3728A21FDA914F00596872 /* Debug */,
+				FC3728A31FDA914F00596872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3728A41FDA914F00596872 /* Build configuration list for PBXNativeTarget "live2d-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3728A51FDA914F00596872 /* Debug */,
+				FC3728A61FDA914F00596872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3728861FDA914F00596872 /* Project object */;
+}
